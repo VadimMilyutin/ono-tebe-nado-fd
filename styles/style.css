@@ -211,7 +211,7 @@ body{
     background-position: center;
     background-size: cover;
     width: 334px;
-    height: 596px;
+    min-height: 596px;
 }
 
 .lots__card-title{
@@ -224,7 +224,7 @@ body{
     line-height: 26.40px;
     word-wrap: break-word;
     display: flex;
-    padding: 48px 40px;
+    padding: 48px 40px 0 40px;
     position: relative;
     z-index: 1;
 }
@@ -232,7 +232,7 @@ body{
 .lots__card-title-all{
     display: flex;
     flex-direction: column;
-    height: 596px;
+    min-height: 596px;
     justify-content: space-between;
 
 }
